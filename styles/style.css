@@ -32,7 +32,7 @@ h1, h2, h3{
     text-transform: uppercase;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgba(248, 244, 244, 0.4);
-    font-size: 2.5em;
+    font-size: min(5vw, 2.7em);
     animation: colors 20s infinite;
 }
 
@@ -658,5 +658,36 @@ hr{
     100% {
       -webkit-filter: blur(12px) opacity(0%);
               filter: blur(12px) opacity(0%);
+    }
+}
+
+
+
+
+@media screen and (max-width:767px) {
+    #nav{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #nav .heartbeat img{
+        max-width: 100%;
+        margin-left: -20px;
+    }
+
+    #nav h1{
+        max-width: 70%;
+        text-align: center;
+    }
+
+    #nav .menu_ul{
+        justify-content: flex-start;
+        max-width: 170px;
+        max-height: 80px;
+    }
+
+    #nav .menu_ul li{
+        max-height: 30px;
+        max-width: 30%;
     }
 }
