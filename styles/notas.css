@@ -25,14 +25,14 @@
 }
 
 #nav .head{
-    width: 75%;
+    width: 65%;
 }
 
 #nav .link{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 40%;
+    width: 30%;
     height: 60px;
 }
 
@@ -113,3 +113,12 @@ main{
     color: white;
 }
 
+@media screen and (max-width:767px) {
+    #nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    #nav .link a{
+        height: 30px;    
+    }
+}
