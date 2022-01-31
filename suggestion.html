@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventura com HTML e CSS </title>
+    <link rel="stylesheet" href="/styles/suggestion.css">
+    
+</head>
+<body class="color-change-5x">
+    <div id="container">
+        <header id="header">
+            <nav id="nav">
+                <span><h1>sua sugestão importa</h1></span>
+                
+                <ul class="menu_ul">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="notas.html">notas</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <h2 >formulário de sugestões</h2>
+            <blockquote>
+                <p>No formulário abaixo, o usuário pode nos enviar sugestões com os estilos que gostaria que fossem publicados na edição da próxima temporada de <strong>"Estilos Musicais Favoritos"</strong> . O estilo mais sugerido será o vencedor para fazer parte de nossos posts. O usuário pode sugerir, também, vídeos com temas acerca do estilo.</p>
+            </blockquote>
+        </section>
+
+        <span class="span_hr">
+            <hr>
+        </span>
+
+        <main>
+            <div id="form">
+                <img src="/img/logo_2.png">
+                <h3>sugira seu estilo</h3>
+                <form action="notas.html" method="get">
+
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" placeholder="Digite seu nome">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Digite seu email">
+
+                    <label for="suggestion">Sugestões</label>
+                    <textarea name="" id="suggestion" cols="30" rows="10" placeholder="Escreva aqui suas sugestões..."></textarea>
+
+                    <button type="submit"><span>Enviar</span></button>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
