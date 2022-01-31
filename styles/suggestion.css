@@ -20,7 +20,7 @@
     align-items: center;
     width: 100%;
     height: 100px;
-    background: linear-gradient(to top left, #000, #fff);
+    background: linear-gradient(to top left, rgb(0, 26, 255), red, orange, rgb(155, 4, 255), rgb(18, 240, 66), yellow);
 }
 
 #nav span{
