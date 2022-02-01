@@ -191,7 +191,7 @@ h1, h2, h3{
 }
 
 #main .h3 h3{
-    font-size: 50px;
+    font-size: min(10vw, 3em);
 }
 
 .h3 h3:hover{
@@ -349,7 +349,7 @@ h1, h2, h3{
 #footer .myName span{
     float: right;
     margin-right: 200px;
-    font-size: 24px;
+    font-size: min(4vw, 2em);
     font-weight: 600;
     color: #3a0a5f;
 }
@@ -366,9 +366,13 @@ h1, h2, h3{
 }
 
 #footer .icons li{
-    font-size: 35px;
+    /* font-size: min(5vw, 24px); */
     margin-right: 15px;
     cursor: pointer;
+}
+
+.icons li a{
+    font-size: min(5vw, 32px);
 }
 
 #footer .icons li a:hover{
@@ -690,4 +694,29 @@ hr{
         max-height: 30px;
         max-width: 30%;
     }
+
+    .images-clips{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section{
+        display: flex;
+        max-width: 90%;
+    }
+    #footer{
+        display: flex;
+        justify-content: center;
+    }
+
+    #footer .myName{
+        display: block;
+        position: absolute;
+        width: 60%;
+        float: right;
+    }
+    #footer .icons{
+        width: 80%;
+    }
+
 }
