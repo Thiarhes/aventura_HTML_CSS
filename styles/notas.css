@@ -78,7 +78,7 @@
 main{
     display: flex;
     justify-content: center;
-    background-image: url('./img/wallpaper');
+    background-image: url('/img/wallpaper');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
